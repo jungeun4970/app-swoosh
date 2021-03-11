@@ -38,7 +38,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sy2-aU-lvl" customClass="BorderButton" customModule="app_swoosh" customModuleProvider="target">
-                                <rect key="frame" x="62.5" y="842" width="289" height="30"/>
+                                <rect key="frame" x="41.5" y="827" width="331" height="45"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.39269307039221935" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                 <state key="normal" title="GET STARTED">
@@ -56,13 +56,13 @@
                             <constraint firstItem="3Cr-nN-cfr" firstAttribute="width" secondItem="eoR-5K-cOu" secondAttribute="width" multiplier="0.557971" id="2VM-le-XfF"/>
                             <constraint firstItem="2Jx-6K-dgw" firstAttribute="top" secondItem="sp0-oZ-f3C" secondAttribute="bottom" constant="6" id="2YI-Ld-8qS"/>
                             <constraint firstItem="sy2-aU-lvl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5Ef-u3-Qsm"/>
-                            <constraint firstItem="sy2-aU-lvl" firstAttribute="height" secondItem="eoR-5K-cOu" secondAttribute="height" multiplier="0.0334821" id="6Or-ff-bom"/>
+                            <constraint firstItem="sy2-aU-lvl" firstAttribute="height" secondItem="eoR-5K-cOu" secondAttribute="height" multiplier="0.05" id="6Or-ff-bom"/>
                             <constraint firstItem="3Cr-nN-cfr" firstAttribute="height" secondItem="eoR-5K-cOu" secondAttribute="height" multiplier="0.0625" id="B97-PK-dnq"/>
                             <constraint firstItem="2Jx-6K-dgw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="D3F-lW-wQJ"/>
                             <constraint firstItem="eoR-5K-cOu" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="I1a-Yc-2hm"/>
                             <constraint firstItem="3Cr-nN-cfr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KBy-5a-QM3"/>
                             <constraint firstItem="DSy-sv-Daa" firstAttribute="height" secondItem="eoR-5K-cOu" secondAttribute="height" multiplier="0.0446429" id="LFu-sK-i18"/>
-                            <constraint firstItem="sy2-aU-lvl" firstAttribute="width" secondItem="eoR-5K-cOu" secondAttribute="width" multiplier="0.698068" id="O9U-pa-EmO"/>
+                            <constraint firstItem="sy2-aU-lvl" firstAttribute="width" secondItem="eoR-5K-cOu" secondAttribute="width" multiplier="0.8" id="O9U-pa-EmO"/>
                             <constraint firstItem="sp0-oZ-f3C" firstAttribute="top" secondItem="DSy-sv-Daa" secondAttribute="bottom" constant="70" id="P4W-pO-1hJ"/>
                             <constraint firstItem="sp0-oZ-f3C" firstAttribute="height" secondItem="eoR-5K-cOu" secondAttribute="height" multiplier="0.0770089" id="Rar-Qh-KjZ"/>
                             <constraint firstItem="DSy-sv-Daa" firstAttribute="width" secondItem="eoR-5K-cOu" secondAttribute="width" multiplier="0.39372" id="TBt-xQ-Nwz"/>
