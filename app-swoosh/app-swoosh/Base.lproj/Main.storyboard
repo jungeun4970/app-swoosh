@@ -19,26 +19,26 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcomeScreenBG" translatesAutoresizingMaskIntoConstraints="NO" id="eoR-5K-cOu">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GO ALL IN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sp0-oZ-f3C">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GO ALL IN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="sp0-oZ-f3C">
                                 <rect key="frame" x="81" y="155" width="252" height="69"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="50"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ON GOING ALL OUT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Jx-6K-dgw">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ON GOING ALL OUT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="2Jx-6K-dgw">
                                 <rect key="frame" x="86" y="230" width="242" height="34"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="24.5"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find a team in your city &amp; dominate the league" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Cr-nN-cfr">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find a team in your city &amp; dominate the league" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="3Cr-nN-cfr">
                                 <rect key="frame" x="91.5" y="344" width="231" height="56"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sy2-aU-lvl" customClass="BorderButton" customModule="app_swoosh" customModuleProvider="target">
-                                <rect key="frame" x="41.5" y="827" width="331" height="45"/>
+                                <rect key="frame" x="41.5" y="811" width="331" height="45"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.39269307039221935" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                 <state key="normal" title="GET STARTED">
@@ -71,8 +71,8 @@
                             <constraint firstItem="sp0-oZ-f3C" firstAttribute="width" secondItem="eoR-5K-cOu" secondAttribute="width" multiplier="0.608696" id="Wza-6y-v5d"/>
                             <constraint firstItem="sp0-oZ-f3C" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="buf-9O-OdG"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eoR-5K-cOu" secondAttribute="trailing" id="f1F-Bg-heo"/>
+                            <constraint firstItem="sy2-aU-lvl" firstAttribute="bottom" secondItem="eoR-5K-cOu" secondAttribute="bottom" constant="-40" id="fDv-aA-R3t"/>
                             <constraint firstItem="DSy-sv-Daa" firstAttribute="centerX" secondItem="eoR-5K-cOu" secondAttribute="centerX" id="jlB-6b-BsD"/>
-                            <constraint firstItem="sy2-aU-lvl" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="10" id="sOB-w5-kwJ"/>
                             <constraint firstItem="DSy-sv-Daa" firstAttribute="top" secondItem="eoR-5K-cOu" secondAttribute="top" constant="45" id="xU5-bb-Xcq"/>
                             <constraint firstItem="3Cr-nN-cfr" firstAttribute="top" secondItem="2Jx-6K-dgw" secondAttribute="bottom" constant="80" id="yOF-wW-GX3"/>
                             <constraint firstItem="eoR-5K-cOu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="zaV-s4-YY3"/>
